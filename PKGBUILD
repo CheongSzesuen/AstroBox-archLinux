@@ -8,6 +8,7 @@ url="https://github.com/CheongSzesuen/AstroBox-archLinux"
 license=('custom')
 depends=('cairo' 'dbus' 'gcc-libs' 'gdk-pixbuf2' 'glib2' 'glibc' 'gtk3' 'hicolor-icon-theme' 'libsoup3' 'webkit2gtk-4.1' 'xz')
 makedepends=('binutils')
+options=('!debug')
 provides=('astrobox')
 
 # 从GitHub Releases下载deb包
